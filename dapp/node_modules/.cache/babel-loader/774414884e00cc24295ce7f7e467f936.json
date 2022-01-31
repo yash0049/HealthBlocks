@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Is a given variable an object?\nexport default function isObject(obj) {\n  var type = typeof obj;\n  return type === 'function' || type === 'object' && !!obj;\n}","map":null,"metadata":{},"sourceType":"module"}
